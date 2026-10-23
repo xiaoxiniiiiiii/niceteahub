@@ -1,0 +1,9 @@
+{
+  "name": "niceteahub",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {"dev":"vite","build":"npm run assets && vite build","assets":"node scripts/generate-assets.mjs","preview":"vite preview"},
+  "dependencies": {"@vitejs/plugin-react":"latest","lucide-react":"latest","react":"latest","react-dom":"latest","vite":"latest"},
+  "devDependencies": {"sharp":"latest"}
+}
